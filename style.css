@@ -11,7 +11,8 @@ body {
       overflow: hidden;
 }
 .banner {
-  background-image: src('images/Banner.JPG'),linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+  image: src('images/Banner.JPG');
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
   background-size: cover;
   background-position: center;
   padding: 250px 0;
