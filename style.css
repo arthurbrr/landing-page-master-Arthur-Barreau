@@ -11,7 +11,7 @@ body {
       overflow: hidden;
 }
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), src('images/Banner.JPEG');
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://unsplash.com/fr/photos/photo-en-niveaux-de-gris-dune-personne-en-train-de-faire-de-la-plongee-sous-marine-AN2SypyyOnA');
   background-size: cover;
   background-position: center;
   padding: 250px 0;
