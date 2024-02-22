@@ -42,13 +42,13 @@ body {
   }
 
 .container {
-  width: 50%;
+  width: 80%;
   margin: 10% auto; /* Adjusted margin to center vertically and horizontally */
 }
 
 .cards {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 8px;
   justify-content: center;
   grid-auto-flow: dense;
@@ -65,7 +65,7 @@ body {
 }
 
 .card-white img {
-  width: 180px;
+  max-width: 100%;
   height: 180px;
   object-fit: cover;
   border-radius: 4px;
